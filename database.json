@@ -1,0 +1,326 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "Arun Mandavi (Super Admin)",
+      "email": "admin@gondia.com",
+      "role": "ADMIN",
+      "phone": "+91 94221 23456",
+      "joinedDate": "2025-01-01"
+    },
+    {
+      "id": "u-owner1",
+      "name": "Rajesh Sharma",
+      "email": "owner@gondia.com",
+      "role": "OWNER",
+      "phone": "+91 98901 54321",
+      "joinedDate": "2025-02-15"
+    },
+    {
+      "id": "u-owner2",
+      "name": "Priya Deshmukh",
+      "email": "priya@gondia.com",
+      "role": "OWNER",
+      "phone": "+91 88882 12345",
+      "joinedDate": "2025-03-01"
+    },
+    {
+      "id": "u-student1",
+      "name": "Amit Patel",
+      "email": "student@gondia.com",
+      "role": "STUDENT",
+      "phone": "+91 70204 45678",
+      "profilePic": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=120",
+      "joinedDate": "2025-05-10"
+    },
+    {
+      "id": "u-student2",
+      "name": "Kiran Rahangdale",
+      "email": "kiran@gondia.com",
+      "role": "STUDENT",
+      "phone": "+91 91587 65432",
+      "joinedDate": "2025-05-18"
+    }
+  ],
+  "hostels": [
+    {
+      "id": "h1",
+      "name": "Gondia Scholars Haven",
+      "type": "Boys",
+      "address": "Kudwa Naka, Near K.T.S. Government Hospital Road",
+      "city": "Gondia",
+      "area": "Kudwa",
+      "googleMapsLocation": "https://maps.google.com/?q=Gondia+Scholars+Haven",
+      "description": "Premium boys hostel located in the heart of Kudwa, Gondia. Walking distance to medical and engineering colleges. Highly secured environment with strict silent hours for study, daily cleaning service, and healthy home-style meals served three times a day at our dedicated mess yard.",
+      "contactNumber": "+91 94234 11223",
+      "email": "scholars.haven@gondiahostels.com",
+      "facilities": [
+        "WiFi",
+        "CCTV",
+        "Water Purifier",
+        "Security",
+        "Study Room",
+        "AC",
+        "Mess Facility",
+        "Parking"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=800"
+      ],
+      "ownerId": "u-owner1",
+      "averageRating": 4.5,
+      "isApproved": true
+    },
+    {
+      "id": "h2",
+      "name": "Laxmi Girls Nest",
+      "type": "Girls",
+      "address": "Ramnagar Ward No. 12, Behind Gondia College",
+      "city": "Gondia",
+      "area": "Ramnagar",
+      "googleMapsLocation": "https://maps.google.com/?q=Laxmi+Girls+Nest+Gondia",
+      "description": "Safe, secure, and modern hostel for girls in Ramnagar. Featuring state-of-the-art security, 24/7 security guard, CCTV cameras, biometric entry, and regular medical checkups. Full power backup, spacious balcony rooms with clean study desks, and clean purified water dispensaries on every floor.",
+      "contactNumber": "+91 88887 66554",
+      "email": "laxmi.girls@gondiahostels.com",
+      "facilities": [
+        "WiFi",
+        "CCTV",
+        "Water Purifier",
+        "Security",
+        "Laundry",
+        "Study Room",
+        "Library",
+        "Mess Facility"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800",
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800"
+      ],
+      "ownerId": "u-owner2",
+      "averageRating": 4.8,
+      "isApproved": true
+    },
+    {
+      "id": "h3",
+      "name": "Saraswati Co-Ed Elite Hostel",
+      "type": "Co-Ed",
+      "address": "Civil Lines Main Road, Opposite District Court Complex",
+      "city": "Gondia",
+      "area": "Civil Lines",
+      "googleMapsLocation": "https://maps.google.com/?q=Civil+Lines+Court+Gondia",
+      "description": "A luxury co-ed accommodation facility divided into separate high-security wings for boys and girls. Perfect for students and working professionals. Equipped with an in-house modern gymnasium, a massive library stocked with competitive exam guides, high-speed fiber internet, and laundry services.",
+      "contactNumber": "+91 77765 44332",
+      "email": "elite.saraswati@gondiahostels.com",
+      "facilities": [
+        "WiFi",
+        "CCTV",
+        "Water Purifier",
+        "Security",
+        "Laundry",
+        "Gym",
+        "Library",
+        "AC",
+        "Mess Facility",
+        "Parking"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800"
+      ],
+      "ownerId": "u-owner1",
+      "averageRating": 4.2,
+      "isApproved": true
+    },
+    {
+      "id": "h4",
+      "name": "Royal Bajaj Residency",
+      "type": "Boys",
+      "address": "Bajaj Nagar Colony near Gondia Junction",
+      "city": "Gondia",
+      "area": "Bajaj Nagar",
+      "googleMapsLocation": "https://maps.google.com/?q=Bajaj+Nagar+Gondia",
+      "description": "Budget-friendly, highly accessible lodging for boy students and travelers alike. Situated extremely close to the central Gondia railway junction. Features multiple sharing room variants, non-AC and AC setups, basic security, and a lively common lounge for social interaction and recreation.",
+      "contactNumber": "+91 91122 33445",
+      "email": "royal.bajaj@gondiahostels.com",
+      "facilities": [
+        "WiFi",
+        "CCTV",
+        "Water Purifier",
+        "Security",
+        "Mess Facility",
+        "Parking",
+        "Non-AC"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=800"
+      ],
+      "ownerId": "u-owner2",
+      "averageRating": 3.9,
+      "isApproved": false
+    }
+  ],
+  "rooms": [
+    {
+      "id": "r1-1",
+      "hostelId": "h1",
+      "roomType": "Single AC",
+      "capacity": 1,
+      "pricePerMonth": 7500,
+      "availableBeds": 2,
+      "images": ["https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=500"]
+    },
+    {
+      "id": "r1-2",
+      "hostelId": "h1",
+      "roomType": "Double sharing",
+      "capacity": 2,
+      "pricePerMonth": 4800,
+      "availableBeds": 5,
+      "images": ["https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=500"]
+    },
+    {
+      "id": "r2-1",
+      "hostelId": "h2",
+      "roomType": "Single Premium Study Special",
+      "capacity": 1,
+      "pricePerMonth": 8500,
+      "availableBeds": 3,
+      "images": ["https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=500"]
+    },
+    {
+      "id": "r2-2",
+      "hostelId": "h2",
+      "roomType": "Double Deluxe",
+      "capacity": 2,
+      "pricePerMonth": 5500,
+      "availableBeds": 4,
+      "images": ["https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=500"]
+    },
+    {
+      "id": "r3-1",
+      "hostelId": "h3",
+      "roomType": "Double AC Wing",
+      "capacity": 2,
+      "pricePerMonth": 6500,
+      "availableBeds": 6,
+      "images": ["https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=500"]
+    },
+    {
+      "id": "r3-2",
+      "hostelId": "h3",
+      "roomType": "Triple Non-AC Sharing",
+      "capacity": 3,
+      "pricePerMonth": 3800,
+      "availableBeds": 9,
+      "images": ["https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=500"]
+    },
+    {
+      "id": "r4-1",
+      "hostelId": "h4",
+      "roomType": "Standard Double Sharing",
+      "capacity": 2,
+      "pricePerMonth": 3500,
+      "availableBeds": 4,
+      "images": ["https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80&w=500"]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "userId": "u-student1",
+      "userName": "Amit Patel",
+      "userEmail": "student@gondia.com",
+      "hostelId": "h1",
+      "hostelName": "Gondia Scholars Haven",
+      "hostelType": "Boys",
+      "roomId": "r1-2",
+      "roomType": "Double sharing",
+      "pricePerMonth": 4800,
+      "bookingType": "Bed",
+      "startDate": "2026-06-01",
+      "durationMonths": 3,
+      "totalAmount": 14400,
+      "status": "Approved",
+      "bookingDate": "2026-05-15",
+      "paymentStatus": "Paid",
+      "paymentId": "p1"
+    },
+    {
+      "id": "b2",
+      "userId": "u-student2",
+      "userName": "Kiran Rahangdale",
+      "userEmail": "kiran@gondia.com",
+      "hostelId": "h2",
+      "hostelName": "Laxmi Girls Nest",
+      "hostelType": "Girls",
+      "roomId": "r2-2",
+      "roomType": "Double Deluxe",
+      "pricePerMonth": 5500,
+      "bookingType": "Bed",
+      "startDate": "2026-06-15",
+      "durationMonths": 6,
+      "totalAmount": 33000,
+      "status": "Pending",
+      "bookingDate": "2026-05-20",
+      "paymentStatus": "Pending"
+    }
+  ],
+  "payments": [
+    {
+      "id": "p1",
+      "bookingId": "b1",
+      "userId": "u-student1",
+      "userName": "Amit Patel",
+      "amount": 14400,
+      "paymentDate": "2026-05-15",
+      "status": "Success",
+      "transactionId": "TXN9988221155"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev1",
+      "hostelId": "h1",
+      "userId": "u-student1",
+      "userName": "Amit Patel",
+      "rating": 5,
+      "comment": "Awesome environment. The mess food is actually good like home-cooked meals, and high speed WiFi really helps in studying.",
+      "reviewDate": "2026-05-25"
+    },
+    {
+      "id": "rev2",
+      "hostelId": "h2",
+      "userId": "u-student2",
+      "userName": "Kiran Rahangdale",
+      "rating": 5,
+      "comment": "Safety standards are exceptional. Security guards are very cooperative, and the library on top is perfect during exam weeks.",
+      "reviewDate": "2026-05-27"
+    }
+  ],
+  "wishlists": [
+    {
+      "id": "w1",
+      "userId": "u-student1",
+      "hostelId": "h2"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "userId": "u-student1",
+      "title": "Booking Approved",
+      "message": "Your booking for Gondia Scholars Haven Room r1-2 has been approved by the hostel owner.",
+      "date": "2026-05-15T12:00:00Z",
+      "read": false
+    },
+    {
+      "id": "n2",
+      "userId": "u-owner1",
+      "title": "New Booking Request",
+      "message": "You have earned a booking inquiry from Amit Patel for Gondia Scholars Haven.",
+      "date": "2026-05-15T10:30:00Z",
+      "read": true
+    }
+  ]
+}

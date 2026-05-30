@@ -1,0 +1,6 @@
+{
+  "name": "HostelGondia",
+  "description": "Premium full-stack Online Hostel Management System for Gondia, Maharashtra, India. Features role-based accounts, live searches, room bookings, and interactive owner and admin dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
